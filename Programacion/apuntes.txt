@@ -1,0 +1,27 @@
+COMPILAR CON EL .java !!!!
+
+parsear:
+
+stringToInt: Integer.parseInt()
+intToString: Integer.toString()		
+charToString: Character.toString()		
+stringToBoolean: Boolean.parseBoolean()	
+stringToDouble: Double.parseDouble()
+
+operadores math:
+
+math.max()
+math.min()
+math.random() [math random es entre > 0 y < 1], multiplicar * numero para que sea hasta x numero, sumar para que empiece desde x numero.
+math.PI
+
+
+scanner:
+
+Scanner sc = new Scanner(System.in);
+float base = sc.nextFloat();
+
+
+otros:
+
+Para crear constantes (siempre en mayus) final tipoValor "nombre_constante"
