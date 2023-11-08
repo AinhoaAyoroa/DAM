@@ -13,7 +13,7 @@ public class problema1{
 		 System.out.println("Division: " + division);
 		 System.out.println("Multiplicacion: " + multiplica);
 		 
-		 problema2();
+		 Problema2();
 	}
 
 
@@ -40,15 +40,15 @@ public class problema1{
 			String num1	= System.console().readLine();
 		System.out.println("Escribe otro valor: ");	
 			String num2 = System.console().readLine();
-			
-		
-		if( num1 > num2 ){
-			System.out.println("El valor mayor es" + num1);
-		}else {
-			System.out.println("El valor mayor es" + num2);
-		}
-		
-		Problema4();
+
+
+        if (num1 <= num2) {
+            System.out.println("El valor mayor es" + num2);
+        } else {
+            System.out.println("El valor mayor es" + num1);
+        }
+
+        Problema4();
 	} 
 	
 	public static void Problema4(){
